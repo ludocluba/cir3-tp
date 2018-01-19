@@ -1,3 +1,14 @@
+# git
+## Utilisation de git pour gérer les scripts (Optionnel mais vivement conseillé)
+```bash
+mkdir scripts
+git init
+touch README.md
+git commit -m "first commit"
+git remote add origin https://github.com/url_to_your_project.git
+git push -u origin master
+```
+
 # cir3-tp1
 TP1 BASH Shell
 
