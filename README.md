@@ -10,7 +10,42 @@ git push -u origin master
 ```
 
 # cir3-tp1
-TP1 BASH Shell
+TP1 BASH Shell : GESTION DES SALARIES
+
+1. Rédigez les instructions qui permettent d’afficher sur l’écran le menu suivant :
+
+                                 MENU - GESTION DES SALARIES 
+                             ============================ 
+Saisir les informations personnelles d’un salarié, taper 1. 
+Mettre à jour les informations personnelles d’un salarié, taper 2. 
+Consulter les informations personnelles d’un salarié, taper 3. 
+Consulter les informations personnelles de tous les salariés, taper 4. 
+Supprimer un salarié, taper 5. 
+Quitter, taper 60
+
+2. Rédigez les commandes qui permettent la saisie du choix dans le menu.
+
+3. Les informations personnelles d’un salarié qui doivent être saisies sont :
+
+*	Le nom et le prénom.
+
+*	La date de naissance.
+
+*	La situation familiale.
+
+*	Le numéro de sécurité sociale.
+
+*	L’adresse.
+
+*	Le numéro de téléphone fixe et le portable.
+
+Une fois ces informations saisies, vous devez les sauvegarder dans un fichier dont le nom est défini dans la variable fichier_salaries au début du script. Les différentes informations sont séparées par le caractère ; pour pouvoir exporter ces données vers d’autres logiciels comme Excel ou d’autres systèmes de gestion de base de données.
+
+Chaque saisie doit être vérifiée.
+
+
+# cir3-tp2
+TP2 BASH Shell
 
 1) Ecrire un script qui contiendra une fonction usage affichant de l'aide sur la commande
 
