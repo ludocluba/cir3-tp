@@ -25,7 +25,9 @@ TP1 BASH Shell : GESTION DES SALARIES
 
 2. Rédigez les commandes qui permettent la saisie du choix dans le menu.
 
-3. Les informations personnelles d’un salarié qui doivent être saisies sont :
+3. Saisie du premier item
+
+Les informations personnelles d’un salarié qui doivent être saisies sont :
 
 *	Le nom et le prénom.
 
@@ -43,6 +45,20 @@ Une fois ces informations saisies, vous devez les sauvegarder dans un fichier do
 
 Chaque saisie doit être vérifiée.
 
+4. Saisie du deuxième item
+Toutes les informations saisies peuvent être modifiées. Les nouvelles données sont vérifiées et validées avant leur enregistrement dans la base.
+
+5. Traitement du troisième item
+Affichez les informations d’un salarié.
+
+6. Traitement du quatrième item
+Affichez les informations de tous les salariés.
+
+7. Traitement du cinquième item
+Supprimez les informations concernant un salarié.
+
+8. Traitement du sixième item
+Quittez l’application après avoir demandé une confirmation de la part de l’utilisateur.
 
 # cir3-tp2
 TP2 BASH Shell
