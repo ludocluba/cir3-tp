@@ -58,13 +58,13 @@ Toutes les informations saisies peuvent être modifiées. Les nouvelles données
 6. Traitement du troisième item
 Affichez les informations d’un salarié.
 
-6. Traitement du quatrième item
+7. Traitement du quatrième item
 Affichez les informations de tous les salariés.
 
-7. Traitement du cinquième item
+8. Traitement du cinquième item
 Supprimez les informations concernant un salarié.
 
-8. Traitement du sixième item
+9. Traitement du sixième item
 Quittez l’application après avoir demandé une confirmation de la part de l’utilisateur.
 
 # cir3-tp2
