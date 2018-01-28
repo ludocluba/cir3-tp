@@ -52,6 +52,13 @@ Chaque saisie doit être vérifiée:
 4. Améliorer le choix de la ville en proposant des choix de villes en fonction du code postal rentré
 *	On utilisera l'api rest: https://vicopo.selfbuild.fr/cherche/code_postal
 
+	curl -f -k -X POST https://vicopo.selfbuild.fr/cherche/29200
+
+Utilisation de jq (json parser)
+
+	# parse le tableau des villes et récupère la valeur des champs city
+	jq '.cities[].city'
+
 5. Saisie du deuxième item
 Toutes les informations saisies peuvent être modifiées. Les nouvelles données sont vérifiées et validées avant leur enregistrement dans la base.
 
