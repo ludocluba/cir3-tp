@@ -35,20 +35,27 @@ Les informations personnelles d’un salarié qui doivent être saisies sont :
 
 *	La situation familiale.
 
-*	Le numéro de sécurité sociale.
-
 *	L’adresse.
 
 *	Le numéro de téléphone fixe et le portable.
 
 Une fois ces informations saisies, vous devez les sauvegarder dans un fichier dont le nom est défini dans la variable fichier_salaries au début du script. Les différentes informations sont séparées par le caractère ; pour pouvoir exporter ces données vers d’autres logiciels comme Excel ou d’autres systèmes de gestion de base de données.
 
-Chaque saisie doit être vérifiée.
+Chaque saisie doit être vérifiée:
 
-4. Saisie du deuxième item
+*	Nom et prenom : au moins 2 lettres
+*	Date de naissance: JJ/MM/YYYY => 1900 < YYYY < 2018
+	-	On vérifiera la cohérence de la date rentrée => nombre de jour dans un mois, nombre de mois, année bissextile
+*	Situation familiale: On proposera les choix suivants: marié(e), pacsé(e), célibataire, divorcé(e), veuf(ve)
+*	Adresse ; Code Postal (5 chiffres); Ville
+
+4. Améliorer le choix de la ville en proposant des choix de villes en fonction du code postal rentré
+*	On utilisera l'api rest: https://vicopo.selfbuild.fr/cherche/code_postal
+
+5. Saisie du deuxième item
 Toutes les informations saisies peuvent être modifiées. Les nouvelles données sont vérifiées et validées avant leur enregistrement dans la base.
 
-5. Traitement du troisième item
+6. Traitement du troisième item
 Affichez les informations d’un salarié.
 
 6. Traitement du quatrième item
