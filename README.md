@@ -11,13 +11,13 @@ git push -u origin master
 # cir3-tp1
 TP1 BASH Shell: PRISE EN MAIN
 
-.Echo/Read
+1. Echo/Read
 Ecrire un programme qui demande le nom et le prénom de l’utilisateur et qui affiche un bonjour personnalisé
 
-.Script de login
+2. Script de login
 Lancer le script un peu plus avancé qui affiche le nom de l'utilisateur, la date, le nombre de personnes loguées (commande who) et l’espace disque disponible sur le système de fichier où le répertoire courant se trouve.
 
-.Modification du prompt
+3. Modification du prompt
 Modifier le prompt pour qu’il soit rouge si vous êtes utilisateur root et  pour qu’il soit  de la couleur de votre choix pour un utilisateur normal.
 Faites en sorte que la définition du prompt soit fixée au démarrage.
 
@@ -29,22 +29,22 @@ Ecrire un script qui donne :
 *	le 1er et le 2ème argument passés
 *	qui teste que le nombre d’argument est bien supérieur à 2.
 
-.Somme
+4. Somme
 Ecrire un fichier shell qui prend en parametre 2 entiers et affiche la somme. S'il n'y a pas deux paramètres, il faut afficher un message d'erreur.
 
-.Le plus grand
+5. Le plus grand
 Ecrire un script qui prend en paramètre trois entiers et qui affiche le plus grand. On affichera un message d'erreur s'il n'y pas pas trois arguments passés sur la ligne de commande.
 
-.Tests sur les fichiers
+6. Tests sur les fichiers
 Ecrire un script qui dit si le nom passé en paramètre est un fichier ou un répertoire, si c’est un exécutable ou s’il n’existe pas.
 
-.Date du jour
-Ecrire un script qui donne le nom du jour en français d’une date rentrée en paramètre.
+7. Trap
+Ecrire un script qui crée un fichier temporaire et appelle une fonction cleanup à la réception des signaux SIGHUP, SIGINT, SIGQUIT, SIGABRT (1, 2, 3, 6)
 
-.Rendre executable
+8. Rendre executable
 Écrire un script qui rend exécutable le fichier dont le nom est passé en argument (pratique pour les scripts, justement) 
 Améliorez le script précédent, afin qu'il vérifie si le fichier existe bien.
-Il doit aussi indiquer si celui¬ci était déjà exécutable. 
+Il doit aussi indiquer si celui-ci était déjà exécutable. 
 En cas de mauvaise invocation (oubli de l'argument, trop d'arguments), rappelez l'usage de votre programme (usage: monprog un_script_à_rendre_exécutable)
 « file » est une commande qui vous indique quel est le type d'un fichier (man file).
 Améliorez  encore le programme précédent afin qu'il vérifie si l'argument qu'on lui passe est bien un script shell.
@@ -52,7 +52,7 @@ Testez la commande file. Regardez ce qu'elle écrit sur son stdout.
 Cherchez un moyen de savoir si cela à un rapport avec un script. Et modifiez votre programme en conséquence.
 Ajoutez à votre programme la possibilité d'interroger son numéro de version, grâce à un argument.
 
-.Météo
+9. Météo
 Ecrire un script qui en fonction de l’@IP donne le nom de la ville
 curl -X GET http://ip-api.com/json
 Puis en function du nom de la ville récupère la météo
