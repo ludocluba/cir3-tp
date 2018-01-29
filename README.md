@@ -42,14 +42,22 @@ Ecrire un script qui dit si le nom passé en paramètre est un fichier ou un ré
 Ecrire un script qui crée un fichier temporaire et appelle une fonction cleanup à la réception des signaux SIGHUP, SIGINT, SIGQUIT, SIGABRT (1, 2, 3, 6)
 
 8. Rendre executable
-Écrire un script qui rend exécutable le fichier dont le nom est passé en argument (pratique pour les scripts, justement) 
+Écrire un script qui rend exécutable le fichier dont le nom est passé en argument (pratique pour les scripts, justement)
+
 Améliorez le script précédent, afin qu'il vérifie si le fichier existe bien.
+
 Il doit aussi indiquer si celui-ci était déjà exécutable. 
+
 En cas de mauvaise invocation (oubli de l'argument, trop d'arguments), rappelez l'usage de votre programme (usage: monprog un_script_à_rendre_exécutable)
+
 « file » est une commande qui vous indique quel est le type d'un fichier (man file).
+
 Améliorez  encore le programme précédent afin qu'il vérifie si l'argument qu'on lui passe est bien un script shell.
+
 Testez la commande file. Regardez ce qu'elle écrit sur son stdout.
+
 Cherchez un moyen de savoir si cela à un rapport avec un script. Et modifiez votre programme en conséquence.
+
 Ajoutez à votre programme la possibilité d'interroger son numéro de version, grâce à un argument.
 
 9. Météo
