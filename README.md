@@ -27,6 +27,12 @@ Lancer le script un peu plus avancé qui affiche:
 * 	le nombre de personnes loguées (commande who)
 *	l’espace disque disponible sur le système de fichier où le répertoire courant se trouve.
 
+Embellissez votre script en rajoutant des couleurs:
+	echo -e "\e[31mRouge\e[0m"
+	echo -e "\e[32mVert\e[0m"
+	echo -e "\e[33mJaune\e[0m"
+	echo -e "\e[34mBleu\e[0m"
+
 3. Modification du prompt
 
 Modifier le prompt pour qu’il soit rouge si vous êtes utilisateur root et  pour qu’il soit  de la couleur de votre choix pour un utilisateur normal.
