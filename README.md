@@ -28,6 +28,7 @@ Lancer le script un peu plus avancé qui affiche:
 *	l’espace disque disponible sur le système de fichier où le répertoire courant se trouve.
 
 Embellissez votre script en rajoutant des couleurs:
+	
 	echo -e "\e[31mRouge\e[0m"
 	echo -e "\e[32mVert\e[0m"
 	echo -e "\e[33mJaune\e[0m"
