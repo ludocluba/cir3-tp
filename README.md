@@ -34,6 +34,10 @@ Embellissez votre script en rajoutant des couleurs:
 	echo -e "\e[33mJaune\e[0m"
 	echo -e "\e[34mBleu\e[0m"
 
+*	Si le pourcentage d'espace disponible est < 75 alors on affichera en vert,
+*	si c'est compris entre 75 et 90: on affichera en jaune,
+*	supérieur à 90 en rouge
+
 3. Modification du prompt
 
 Modifier le prompt pour qu’il soit rouge si vous êtes utilisateur root et  pour qu’il soit  de la couleur de votre choix pour un utilisateur normal.
