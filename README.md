@@ -111,7 +111,7 @@ TP2 BASH Shell : GESTION DES SALARIES
 		Consulter les informations personnelles d’un salarié, taper 3. 
 		Consulter les informations personnelles de tous les salariés, taper 4. 
 		Supprimer un salarié, taper 5. 
-		Quitter, taper 60
+		Quitter, taper 6
 
 2. Rédigez les commandes qui permettent la saisie du choix dans le menu.
 
