@@ -174,22 +174,39 @@ TP3 BASH Shell
 *	-f <path to file> : donnera le chemin vers un fichier
 *	-g <group> : donnera le nom du groupe
 
-3) Ecrire un script qui propose au choix:
-*	De créer des utilisateurs (si ceux-ci n'existent pas déjà) à partir d'un fichier passé en paramètre
-	- Les utilisateurs appartiendront au groupe passé en argument (-g <group>)
-*	De supprimer des utilisateurs (si ceux-ci existent) à partir d'un fichier passé en paramètre
-
-4) Créez une fonction existe qui recherche un utilisateur dans un fichier. Le choix du fichier est défini par une option qui est transmise à la fonction.
+3) Créez une fonction existe qui recherche un utilisateur dans un fichier. Le choix du fichier est défini par une option qui est transmise à la fonction.
 *	Si l’option est égale à la lettre u, la recherche s’effectue dans le fichier /etc/passwd.
 *	Si l’option est égale à la lettre g, la recherche s’effectue dans le fichier /etc/group.
 
 La fonction transmet un code retour égal à 0 en cas de succès, 1 sinon.
 
-5) Le script: 
-*	appelera la fonction usage s'il n'y pas de paramètres 
-*	essaiera d'utiliser le fichier <userlogin> si celui-ci existe
-	
-6) Enfin le script affichera:
-*	le nombre d'utilisateurs créés,
-*	le nombre d'utilisateurs existants,
-*	le nombre d'utilisateurs supprimés.
+Créez une fonction saisie qui saisit :
+*	un nom d’utilisateur si l’option transmise est u.
+*	un nom de groupe si l’option transmise est g.
+
+4) Creer des fonction utilitaire "util_user" dans un fichier à part que l'on incluera dans notre script:
+*	Créer une fonction create_user qui crée un compte utilisateur.
+*	Créer une fonction change_user qui modifie un compte utilisateur.
+*	Créer une fonction print_user qui affiche des informations sur un compte utilisateur.
+*	Créez une fonction delete_user qui supprime un compte utilisateur.
+*	Créez une fonction create_users qui automatise la création de comptes listés dans un fichier.
+
+Indices: Utiliser la commande useradd, usermod et userdel
+
+5) Creer des fonction utilitaire "util_group" dans un fichier à part que l'on incluera dans notre script:
+*	Créer une fonction create_group qui crée un groupe utilisateur.
+*	Créer une fonction change_group qui modifie un groupe utilisateur.
+*	Créer une fonction print_group qui affiche des informations sur un compte utilisateur.
+*	Créez une fonction delete_group qui supprime un compte utilisateur.
+
+Indices: groupadd, groupmod, groupdel
+
+6) Sauvegarde et archivage du système
+*	Créez une fonction archive_rep qui archive un répertoire.
+*	Créez une fonction affiche_archive qui permet de visualiser le contenu d’une archive. 
+*	Créez une fonction restaure_rep qui procède à l’extraction d’une archive.
+*	Créez une fonction compress_archive qui compresse une archive.
+*	Créez une fonction decompress_archive qui décompresse une archive.
+
+
+7) Créez le menu qui permet de faire appel aux fonctions créées aux étapes précédentes.
