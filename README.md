@@ -172,7 +172,7 @@ TP3 BASH Shell
 2) Compléter ce script en rajoutant des options (On utilisera la commande getopts):
 *	-h : permettra d'afficher de l'aide
 
-Des options supplémentaires seront éventuellement rajouter par la suite pour améliorer le script
+Des options supplémentaires seront éventuellement rajoutées par la suite pour améliorer le script
 
 3) Créez une fonction existe qui recherche un utilisateur dans un fichier. Le choix du fichier est défini par une option qui est transmise à la fonction.
 *	Si l’option est égale à la lettre u, la recherche s’effectue dans le fichier /etc/passwd.
