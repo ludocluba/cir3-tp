@@ -184,7 +184,7 @@ Créez une fonction saisie qui saisit :
 *	un nom d’utilisateur si l’option transmise est u.
 *	un nom de groupe si l’option transmise est g.
 
-4) Creer des fonction utilitaire "util_user" dans un fichier à part que l'on incluera dans notre script:
+4) Creer des fonctions utilitaires "util_user" dans un fichier à part que l'on incluera dans notre script:
 *	Créer une fonction create_user qui crée un compte utilisateur.
 *	Créer une fonction change_user qui modifie un compte utilisateur.
 *	Créer une fonction print_user qui affiche des informations sur un compte utilisateur.
@@ -193,7 +193,7 @@ Créez une fonction saisie qui saisit :
 
 Indices: Utiliser la commande useradd, usermod et userdel
 
-5) Creer des fonction utilitaire "util_group" dans un fichier à part que l'on incluera dans notre script:
+5) Creer des fonctions utilitaires "util_group" dans un fichier à part que l'on incluera dans notre script:
 *	Créer une fonction create_group qui crée un groupe utilisateur.
 *	Créer une fonction change_group qui modifie un groupe utilisateur.
 *	Créer une fonction print_group qui affiche des informations sur un compte utilisateur.
